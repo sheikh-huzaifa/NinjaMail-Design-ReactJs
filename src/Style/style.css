@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Raleway&display=swap');
+
+h1{
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 3vw;
+}
+
+@media only screen and (max-width:720px){
+  h1{
+      font-size: 6vw;
+  }
+  .sec_2 h1{
+      font-size: 4vw;
+  }
+  
+}
+
+
+
+h2{
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+
+.button_bg_white{
+  background-color: white;
+  border-color: #4BA87D;
+  color: #4BA87D;
+  
+}
+
+.button_bg_green{
+  background-color: #4BA87D;
+  border-color: #4BA87D;
+  color: white;
+  
+  
+}
+
+button{
+  font-size: 1vw ;
+  height: 3vw;
+  width: 10vw;
+}
+
+@media only screen and (max-width: 720px) {
+  button{
+      font-size: 2vw ;
+      height: 6vw;
+      width: 20vw;
+    }
+   
+
+  
+}
+
+.special_btn{
+  display: none;
+}
+/* Custom */
+
+
+
+nav div ul li{
+  padding-left: 1vw;
+  color: black;
+}
+
+nav div ul{
+  padding-right: 1vw;
+  
+}
+
+nav div ul li a{
+  letter-spacing: 0.35vw;
+  color: black;
+  text-decoration-style: none;
+  font-weight: 600;
+  
+}
+
+nav div ul li a:hover{
+  border-bottom: 0.5vw solid #4BA87D;
+  color: black;
+}
+nav div ul li a:visited{
+  color: black;
+}
+
+nav div button{
+  background-color: #4BA87D;
+  letter-spacing: 0.35vw;
+  width: 13vw;
+  height: 2.5vw;
+  border: 0ch none;
+  font-weight: 500;
+  color: white;
+  padding-left: 0.5vw;
+}
+
+nav{
+  margin-right: 15vw;
+}
+
+body{
+  background-image: url(../Assects/img/BG\ stuff_1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@media only screen and (max-width: 720px){
+  body{
+      background-image: none;
+      
+  }
+  .header{
+      background-image: url(../Assects/img/bg_1.png);
+      background-repeat: no-repeat;
+  background-size: 100%;
+  }
+  .second{
+      background-image: url(../Assects/img/bg_2.png);
+      background-repeat: no-repeat;
+  background-size: 100%;
+  }
+  .special_btn{
+      display: inline;
+      width: 40%;
+      height: 7vw;
+  }
+
+  .special_img{
+      width: 100%;
+      height: 10vw;
+  }
+  
+}
+
+.special_img{
+  width: 15vw;
+}
+
+.body{
+  
+  margin-right: 0vw;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100vw;
+  
+  }
+
+.header{
+  background-image: url(../Assects/img/photo-1544717302-de2939b7ef71\ \(image\).png); 
+  background-position-x: right;
+  background-repeat: no-repeat;
+  padding-bottom: 10vw;
+  background-size: 60%;
+  
+  
+}
+
+@media only screen and (max-width:720px){
+  .header{
+      background-image: none;
+  }
+
+  .header div img{
+      display: block;
+  }
+}
+
+.header img{
+  display: none;
+}
+
+.header h1{
+  letter-spacing: 0.2vw;
+}
+
+.header p{
+  letter-spacing: 0.15vw;
+}
+
+
+.second{
+  
+  background-size: 100%;
+  background-size: cover;
+  
+}
+
+
+.sec_2 h1{
+  color: white;
+  
+}
+
+.sec_6{
+  background-color: #4BA87D;
+}
+
+
+
+.input{
+  height: 3vw;
+  width: 20vw; 
+} 
